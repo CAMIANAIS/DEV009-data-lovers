@@ -9,6 +9,13 @@
     --font-family-body: 'Inter', sans-serif;
 }
 
+
+  
+
+/* to establish a consistent box-sizing behavior throughout the document, ensuring that the dimensions of elements are calculated consistently across different parts of the page.*/
+/*, *:before, *:after {
+    box-sizing: inherit;
+}*/
 header {
     background-color: var(--welcome-background-color);
     padding: 10px;
@@ -21,8 +28,11 @@ body {
     font-family: var(--font-family-body);
     color: var(--body-font-color);
     margin: 0;
+    font-size: 16px;
     background-color: var(--background-color);
 } 
+
+
 
 .logo img {
     margin-left: 10px;
@@ -60,10 +70,14 @@ nav ul li a {
     margin-bottom: 60px;
 }
 
-.presentation img {
-    margin-right: 10px;
-    max-width: 100%; /* Ancho deseado */
-    height: auto; /* Altura automática proporcional */
+
+.imagecontainer{
+    width:50%;
+    margin:auto
+}
+.totoro-intro {
+    width: 100%;
+    height: auto;
 }
 
 .contenedor-imagen-intro{
@@ -82,7 +96,6 @@ nav ul li a {
     align-items: center;
     padding: 60px;
     padding-top: inherit;
-    max-width: 850px;
     margin-left: 30px;
     gap: 40px;
 }
@@ -99,7 +112,6 @@ nav ul li a {
     max-width: 850px;
     width: 100%;
 }
-
 
 .data-title {
     font-weight: bold;
@@ -191,6 +203,11 @@ display:none;
         display: flex;
         flex-direction: column;
     }
+    .totoro-intro {
+        width: 100%;
+        height: auto
+    }
+}
 
     .resultadoCalculoAgregado {
         display: flex;
@@ -198,8 +215,7 @@ display:none;
         margin-top: 20px;
     }
 
-    
-}
+
 
 /*Tablet (ipad Air)*/
 @media (max-width:820px)  {

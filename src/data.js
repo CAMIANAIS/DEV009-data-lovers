@@ -32,3 +32,4 @@ export const getCount=(dataGhibli, selectedOptionDirector, selectedOptionYear) =
 export const getPercentage = (films, count) => {
   return (count / films) * 100;
 };
+

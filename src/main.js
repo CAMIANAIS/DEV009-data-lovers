@@ -111,11 +111,11 @@ orderSelect.addEventListener('change', handleSelection);
 filterSelect.addEventListener('change', handleSelection);
 yearFilterSelect.addEventListener('change', handleSelection);
 
+
 //Responsive
-/*const menuIcon = document.querySelector('.menu-icon');
+const menuIcon = document.querySelector('.menu-icon');
 const filters = document.querySelector('.filters');
 let isFiltersVisible = false;
-
 menuIcon.addEventListener('click', () => {
   if (isFiltersVisible) {
     filters.style.display = 'none';
@@ -125,16 +125,6 @@ menuIcon.addEventListener('click', () => {
     isFiltersVisible = true;
   }
 });
-*/
-
-const showFiltersButton = document.getElementById('showFilters');
-const filtersContainer = document.getElementById('side');
-
-showFiltersButton.addEventListener('click', () => {
-  filtersContainer.style.display = 'block'; // Mostrar el menú "filters"
-});
-
-
 
 
 

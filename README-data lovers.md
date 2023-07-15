@@ -49,6 +49,8 @@ Trabajamos en la elaboración de un prototipo a papel , luego uno de alta fideli
 #### Prototipos de alta fidelidad
 ![prototipo alta 1](src/img/prototipoaltaversion1.jpg)
 
+### Listado de problemas que detectaste a través de tests de usabilidad
+
  Prototipo dinámico: [prototipo dinamico](https://www.figma.com/file/Za2IZjJeFvbyY29Qm8RnY7/DL---Prototipo-alta-2?type=design&mode=design&t=SW1ZTLeklR9Bb0Pm-0)
 
 #### Listado de problemas de usabilidad detectados 
